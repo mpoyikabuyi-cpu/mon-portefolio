@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Mon portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">A propos</a></li>
+                <li><a href="projet.html">Projet</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <h2>Contact</h2>
+        <p>Vous avez un projet, une question ou une opportunité à partager? N'hésitez pas à m'écrire!</p>
+        <hr>
+        <div>
+            <h2>Formulaire de conctact</h2>
+            <form action="#" method="post">
+            <!-- pour le nom -->
+            <div>
+                <label for="nom">Nom complet :*</label><br>
+                <input type="text" id="nom" name="nom" placeholder="Ex : Djos joel Mpoyi" required > 
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="email">Adresse e-mail</label><br>
+                <input type="email" id="email" name="email" placeholder="Ex : mpoyikabuyi@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="sujet">sujet :*</label><br>
+                <select id="sujet" name="sujet" required>
+                    <option value="">--Sélectionnez un sujet--</option>
+                    <option value="">proposition de collaborateur</option>
+                    <option value="">Offre de stage</option>
+                    <option value="">question generale</option>
+                    <option value="">autre</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="message">Message : </label>*<br>
+               <textarea id="message" name="message" placeholder="Ecrivez votre message ici" required ></textarea> 
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="rgpd" name="rgpd" required> J'accepte que mes données soient utilisées pour répondre à ma demande
+            </div>
+            <br>
+            <div>
+                <button type="submit">Envoyer</button>
+                <button type="reset"> Reinitiatiser</button>
+            </div>
+            </form>
+        </div>
+    </section>
+    <hr>
+<footer>
+        <h3>Retrouvez moi aussi sur</h3>
+                <strong>Linkedln :</strong>
+                <a href="https://www.linkedin.com/in/djos-joel-mpoyi" target="blank">Linkedln - linkedin.com/in/djos joel mpoyi</a>
+                  <p> <strong>GitHub :</strong>
+                    <a href="https://github.com/djos-joel-mpoyi" target="_blank">gitthub.com/djos joel mpoyi</a></p> 
+                <p><strong> E-mail :</strong>
+                    <a href="mailto:mpoyikabuyi@gmail.com">mpoyikabuyi@gmail.com</a>
+                </p>
+        <hr>
+        <p>&copy; 2026 Mon Portfolio - Tous droits réservés
+
+        </p>
+
+    </footer>
+</body>
+</html>
